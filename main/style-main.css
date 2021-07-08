@@ -1,0 +1,127 @@
+body {
+    margin: auto;
+    padding: auto;
+    box-sizing: border-box;
+}
+
+/* header e footer Joao */
+header{
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    column-gap: 10px;
+    background-color: azure;
+    justify-items: center;
+    align-items: center;
+}
+
+header h1 {
+    justify-content: center;
+    font-family: 'Permanent Marker', cursive;
+    align-items: center;
+    margin: auto;
+    
+    
+}
+
+.secao {
+    display: flex;
+    font-family: 'Indie Flower', cursive;
+    font-size: 18px;
+    
+    
+}
+
+.outraSecao{
+    display: flex;
+    font-family: 'Indie Flower', cursive;
+    font-size: 18px;
+    margin-left:30px;
+    
+    
+}
+
+.secao p {
+    margin-right: 20px;
+    
+}
+
+.outraSecao p {
+    margin-left: 20px;
+    
+}
+.logos{
+    color: white;
+    background-color: black;
+    text-align: center;
+    font-family: 'Yomogi', cursive;
+    padding: 15px;
+}
+
+.logos img{
+    width: 40px;
+
+}
+/* Header e footer Joao */
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.inicio {
+    background-image: url("./img/imagem-de-inicio.png");
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 98vw;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border: 1px solid black;
+}
+
+.quem-somos {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center;
+    justify-content: center; */
+    height: 80vh;
+    width: 80vw;
+    /* background-image: url("./img/4comfort.png");
+    background-repeat: no-repeat;
+    background-size:; */
+    border: 1px solid black;
+}
+
+.quem-somos > div {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0px;
+    background-color: aquamarine;
+
+
+}
+
+
+/* produtos */
+.produtos {
+    border: 1px solid black;
+    height: 100vh;
+    width: 98vw;
+}
+
+.contatos {
+    height: 80vh;
+    width: 80vw;
+    border: 1px solid black;
+}
+
+.nosso-time {
+    height: 100vh;
+    width: 98vw;
+    border: 1px solid black;
+}
