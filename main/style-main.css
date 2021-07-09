@@ -1,3 +1,4 @@
+
 body {
     margin: 0;
     padding: 0;
@@ -13,9 +14,11 @@ body {
 
 /* HEADER E FOOTER JOAO*/
 header{
-    display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
-    column-gap: 10px;
+    /* display: grid;
+    grid-template-columns: 1fr 2fr 1fr; */
+    /* column-gap: 10px; */
+    display: flex;
+    justify-content: space-between;
     background-color: azure;
     justify-items: center;
     align-items: center;
@@ -101,12 +104,20 @@ main {
     display: flex;
     justify-content: space-evenly;
     align-items: center; 
+
 }
 
 
-a {
+.inicio a {
     text-decoration: none;
     color: white;
+    font-family: 'Otomanopee One', sans-serif;
+    font-size: 40px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
 }
 
 
@@ -128,7 +139,7 @@ a {
     /* background-image: url("./img/4comfort.png");
     background-repeat: no-repeat;
     background-size:; */
-    border: 1px solid black;
+    /* border: 1px solid black; */
     background-color: white;
     color: black;
 }
@@ -179,6 +190,8 @@ a {
 
 
 
+@media screen and (min-device-width : 481px) {
+    /* computadores */
 
 
 
@@ -195,17 +208,19 @@ a {
 }
 
 .nossos-produtos {
-    background-color:;
+    
     margin-top: 40px;
 }
 #produtos-titulo {
-    border: 1px solid black;
+    /* border: 1px solid black; */
+    box-shadow: 2px 2px 5px rgb(179, 179, 179) ;
     width: 100%;
     height: 100%;
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
     background-color: white;
+    font-family: 'Merienda', cursive;
 }
 
 .produtos {
@@ -223,6 +238,7 @@ a {
 
 .calcados {
     display: flex;
+    
     justify-content: space-evenly;
     height: 100%;
     width: 100%;
@@ -267,7 +283,7 @@ a {
 .contatos {
     height: 80vh;
     width: 100%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     background-color: azure;
     
 }
@@ -287,7 +303,7 @@ a {
     align-items: center;
     text-align: center;
     font-family: 'Roboto Mono', monospace;
-    padding: 10px;
+    padding: 80px;
     
 }
 
@@ -308,7 +324,7 @@ a {
 .nosso-time {
     height: 100%;
     width: 99vw;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     background-color: #FAFAFA;
     
 }
@@ -371,4 +387,6 @@ a {
 
 .vic >img {
     width: 500px;
+}
+
 }
