@@ -1,0 +1,374 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+
+/* HEADER E FOOTER JOAO*/
+header{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    column-gap: 10px;
+    background-color: azure;
+    justify-items: center;
+    align-items: center;
+}
+
+header h1 {
+    justify-content: center;
+    font-family: 'Permanent Marker', cursive;
+    align-items: center;
+    margin: auto;
+    
+    
+}
+
+.secao {
+    display: flex;
+    font-family: 'Indie Flower', cursive;
+    font-size: 18px;
+    padding-left: 20px;
+    
+}
+
+.outraSecao{
+    display: flex;
+    font-family: 'Indie Flower', cursive;
+    font-size: 18px;
+    margin-left:30px;
+    padding-right: 20px;
+    
+    
+}
+
+.secao p {
+    margin-right: 20px;
+    
+}
+
+.outraSecao p {
+    margin-left: 20px;
+    
+}
+.logos{
+    color: white;
+    background-color: black;
+    text-align: center;
+    font-family: 'Yomogi', cursive;
+    padding: 15px;
+}
+
+.logos img{
+    width: 40px;
+
+}
+/* HEADER E FOOTER JOAO */
+
+
+
+
+
+
+
+
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+/* PÁGINA DE INICIO - PARTE 1 */
+.inicio {
+    height: 99.9vh;
+    width: 100%;   
+    background-image: url("./img/inicio.png");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; 
+}
+
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+
+
+
+
+/* QUEM SOMOS - PARTE 2 */
+.quem-somos {
+    padding-top: 20px;
+    padding-bottom: 50px;
+    /* display: flex;
+    flex-direction: column; */
+    /* align-items: center;
+    justify-content: center; */
+    width: 100%;
+    /* background-image: url("./img/4comfort.png");
+    background-repeat: no-repeat;
+    background-size:; */
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+}
+
+.quem-somos h1{
+    padding-bottom: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Merienda', cursive;
+    font-size: 35px;
+}
+
+.bem-vindo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 50%;
+    background-color:azure;
+    border-radius: 7px;
+    margin: auto;
+    font-family: 'Roboto Mono', monospace;
+    color: black;
+    padding: 30px;
+    
+}
+
+.bem-vindo h2 {
+    font-size: 30px;
+    font-family: 'Indie Flower', cursive;
+}
+
+/* .quem-somos > div {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0px;
+    background-color: green;
+
+
+} */
+
+
+
+
+
+
+
+
+
+
+/* PRODUTOS - PARTE 3 */
+#fundo-produtos {
+    /* border: 1px solid black; */
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(248, 248, 248);
+}
+
+.nossos-produtos {
+    background-color:;
+    margin-top: 40px;
+}
+#produtos-titulo {
+    border: 1px solid black;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: white;
+}
+
+.produtos {
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.genero {
+    padding-top: 30px;
+    /* padding-bottom: 10px; */
+}
+
+.calcados {
+    display: flex;
+    justify-content: space-evenly;
+    height: 100%;
+    width: 100%;
+    /* border: 1px solid black; */
+    margin: 40px;
+}
+
+.tenis {
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid black; */
+    box-shadow: 2px 2px 5px rgb(179, 179, 179);
+    color: black;
+}
+
+.tenis > img {
+    height: 40vh;
+    /* width: 25vw; */
+}
+
+.tenis > h4 {
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+
+.tenis > p {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+/* CONTATOS - PARTE 4 */
+.contatos {
+    height: 80vh;
+    width: 100%;
+    border: 1px solid black;
+    background-color: azure;
+    
+}
+
+.contatos h1 {
+    margin-top: 25px;
+    text-align: center;
+    font-family: 'Merienda', cursive;
+
+}
+
+.foto{
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    padding: 10px;
+    
+}
+
+.foto img{
+    width: 40px;
+    padding: 20px;
+}
+
+.foto img:first-child{
+    width: 60px;
+}
+
+
+
+
+
+/* NOSSO TIME - PARTE 5 */
+.nosso-time {
+    height: 100%;
+    width: 99vw;
+    border: 1px solid black;
+    background-color: #FAFAFA;
+    
+}
+.nosso-time h1{
+    margin-top: 25px;
+    text-align: center;
+    font-family: 'Merienda', cursive;
+    
+}
+
+.joao{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    background-color:white;
+    margin: 10px;
+}
+
+.joao img{
+    
+    width: 500px;
+}
+
+.joao h3{
+    
+    margin-left: 15%;
+}
+
+.jp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Indie Flower', cursive;
+    font-size: 20px;
+}
+.jota{
+    /* display: flex;
+    flex-direction: column; */
+    margin-left: 20px;
+    /* margin-top: -130px; */
+}
+
+.jota h3{
+    font-family: 'Indie Flower', cursive;
+    font-size: 40px;
+    position: relative;
+    right: 50px;
+}
+
+.jota p {
+    font-family: 'Roboto Mono', monospace;
+}
+
+
+.victor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vic >img {
+    width: 500px;
+}
